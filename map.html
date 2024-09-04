@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps Coordinate Extractor</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Google Maps Coordinate Extractor</h1>
+        <form id="coordinateForm">
+            <input type="text" id="mapLink" placeholder="Paste Google Maps Link Here" required>
+            <button type="button" onclick="getCoordinates()">Get Coordinates</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="map.js"></script>
+</body>
+</html>
